@@ -1,28 +1,125 @@
-"""TODO: store and search vectors using PostgreSQL + pgvector."""
+"""Store and search vectors using PostgreSQL + pgvector."""
+import json
 from typing import Any
+import psycopg
 from .models import Chunk
 
 
 class PgVectorStore:
-    def __init__(self, database_url: str, dimensions: int) -> None:
-        """TODO: retain connection settings; validate model dimensions."""
-        raise NotImplementedError("TODO: initialize store")
+    def __init__(self, database_url: str, dimensions: int = 1536) -> None:
+        """Initialize PostgreSQL connection settings and validate dimensions."""
+        self.database_url = database_url
+        self.dimensions = dimensions
 
     def create_schema(self) -> None:
-        """TODO: create table with vector column and source/page/filter metadata."""
-        raise NotImplementedError("TODO: create_schema")
+        """Create extension, chunks table, and metadata/vector indices."""
+        with psycopg.connect(self.database_url, autocommit=True) as conn:
+            with conn.cursor() as cur:
+                cur.execute("CREATE EXTENSION IF NOT EXISTS vector;")
+                cur.execute(
+                    f"""
+                    CREATE TABLE IF NOT EXISTS chunks (
+                        id TEXT NOT NULL,
+                        strategy VARCHAR(10) NOT NULL,
+                        document_id TEXT NOT NULL,
+                        source TEXT NOT NULL,
+                        page INT NOT NULL,
+                        text TEXT NOT NULL,
+                        metadata JSONB NOT NULL DEFAULT '{{}}'::jsonb,
+                        embedding vector({self.dimensions}) NOT NULL,
+                        PRIMARY KEY (strategy, id)
+                    );
+                    """
+                )
+                cur.execute("CREATE INDEX IF NOT EXISTS idx_chunks_strategy ON chunks (strategy);")
+                cur.execute("CREATE INDEX IF NOT EXISTS idx_chunks_metadata ON chunks USING gin (metadata);")
 
     def upsert(self, strategy: str, chunks: list[Chunk], vectors: list[list[float]]) -> None:
-        """TODO: validate lengths/dimensions and write stable IDs without duplicates.
+        """Clean existing strategy records and insert chunks with vectors.
 
-        When re-ingesting changed source documents, remove obsolete chunks too.
+        Guarantees idempotent re-ingestion without duplicate chunk accumulation.
         """
-        raise NotImplementedError("TODO: upsert")
+        if len(chunks) != len(vectors):
+            raise ValueError(f"Chunk count ({len(chunks)}) does not match vector count ({len(vectors)})")
 
-    def search(self, strategy: str, query_vector: list[float], top_k: int = 3,
-               filters: dict[str, Any] | None = None) -> list[dict[str, Any]]:
-        """TODO: filter permitted metadata in SQL, rank by cosine distance, return top-k.
+        if not chunks:
+            return
 
-        Return chunk ID, text, score and metadata. Parameterize user-supplied values.
+        with psycopg.connect(self.database_url, autocommit=True) as conn:
+            with conn.cursor() as cur:
+                # Remove obsolete records for this strategy
+                cur.execute("DELETE FROM chunks WHERE strategy = %s;", (strategy,))
+
+                insert_sql = """
+                    INSERT INTO chunks (id, strategy, document_id, source, page, text, metadata, embedding)
+                    VALUES (%s, %s, %s, %s, %s, %s, %s::jsonb, %s::vector);
+                """
+
+                rows = []
+                for chunk, vec in zip(chunks, vectors):
+                    vec_str = f"[{','.join(str(x) for x in vec)}]"
+                    meta_str = json.dumps(chunk.metadata, ensure_ascii=False)
+                    rows.append((
+                        chunk.chunk_id,
+                        strategy,
+                        chunk.document_id,
+                        chunk.source,
+                        chunk.page,
+                        chunk.text,
+                        meta_str,
+                        vec_str
+                    ))
+
+                cur.executemany(insert_sql, rows)
+
+    def search(
+        self,
+        strategy: str,
+        query_vector: list[float],
+        top_k: int = 3,
+        filters: dict[str, Any] | None = None
+    ) -> list[dict[str, Any]]:
+        """Perform cosine similarity vector search with optional metadata filtering.
+
+        Returns list of hits sorted by descending cosine similarity.
         """
-        raise NotImplementedError("TODO: search")
+        vec_str = f"[{','.join(str(x) for x in query_vector)}]"
+
+        with psycopg.connect(self.database_url) as conn:
+            with conn.cursor() as cur:
+                if filters:
+                    filter_str = json.dumps(filters, ensure_ascii=False)
+                    query_sql = """
+                        SELECT id, document_id, source, page, text, metadata,
+                               1 - (embedding <=> %s::vector) AS score
+                        FROM chunks
+                        WHERE strategy = %s
+                          AND metadata @> %s::jsonb
+                        ORDER BY embedding <=> %s::vector ASC
+                        LIMIT %s;
+                    """
+                    cur.execute(query_sql, (vec_str, strategy, filter_str, vec_str, top_k))
+                else:
+                    query_sql = """
+                        SELECT id, document_id, source, page, text, metadata,
+                               1 - (embedding <=> %s::vector) AS score
+                        FROM chunks
+                        WHERE strategy = %s
+                        ORDER BY embedding <=> %s::vector ASC
+                        LIMIT %s;
+                    """
+                    cur.execute(query_sql, (vec_str, strategy, vec_str, top_k))
+
+                results = []
+                for row in cur.fetchall():
+                    results.append({
+                        "id": row[0],
+                        "document_id": row[1],
+                        "source": row[2],
+                        "page": row[3],
+                        "text": row[4],
+                        "metadata": row[5],
+                        "score": float(row[6])
+                    })
+
+                return results

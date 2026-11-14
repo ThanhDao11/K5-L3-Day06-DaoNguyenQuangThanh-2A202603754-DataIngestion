@@ -1,0 +1,570 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "direct",
+    "question": "Why did the lake weep in the story of Narcissus?",
+    "expected_answer": "Because each time Narcissus knelt on the bank, the lake could see its own beauty reflected in his eyes.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 11,
+    "evidence_quote": "you weep?” the goddesses asked. “I weep for Narcissus,” the lake replied. “Ah, it is no surprise that you weep",
+    "filter": null
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "filter_test",
+    "question": "Whose mythological story did the alchemist read in the book found in the caravan?",
+    "expected_answer": "The story of Narcissus.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 11,
+    "evidence_quote": "Leafing through the pages, he found a story about Narcissus. The alchemist knew the legend of Narcissus, a youth who kn",
+    "filter": {
+      "part": "Prologue"
+    }
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "direct",
+    "question": "What kind of tree was growing in the ruins of the sacristy where Santiago slept?",
+    "expected_answer": "An enormous sycamore.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 14,
+    "evidence_quote": "f had fallen in long ago, and an enormous sycamore had grown on the spot where the sacristy had once stood. He decided t",
+    "filter": null
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "type": "direct",
+    "question": "What was the occupation of the father of the merchant's daughter Santiago planned to visit?",
+    "expected_answer": "The proprietor of a dry goods shop.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 15,
+    "evidence_quote": "before. The merchant was the proprietor of a dry goods shop, and he always demanded that the sheep be sheared in his pr",
+    "filter": null
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "direct",
+    "question": "What career had Santiago's parents originally wanted him to pursue?",
+    "expected_answer": "A Catholic priest.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 17,
+    "evidence_quote": "eminary until he was sixteen. His parents had wanted him to become a priest, and thereby a source of pride for a simple farm family. Th",
+    "filter": null
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "What fundamental desire made Santiago choose shepherding over the priesthood?",
+    "expected_answer": "His desire to travel and know the world.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 17,
+    "evidence_quote": "a desire to know the world",
+    "filter": null
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "direct",
+    "question": "In Santiago's recurring dream, who transports him to the Egyptian Pyramids?",
+    "expected_answer": "A child.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 21,
+    "evidence_quote": "e boy, a bit upset. “And suddenly, the child took me by both hands and transported me to the Egyptian pyramids.” He paused for a moment to see if the woman",
+    "filter": null
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "direct",
+    "question": "What fraction of the treasure did the Gypsy woman demand as payment for her interpretation?",
+    "expected_answer": "One-tenth of the treasure.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 21,
+    "evidence_quote": "one-tenth of it in payment",
+    "filter": null
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "direct",
+    "question": "Where had Santiago obtained the book he was reading when he met the old man in Tarifa?",
+    "expected_answer": "He borrowed it from a priest in the seminary.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 22,
+    "evidence_quote": "borrowed from a priest in the seminary",
+    "filter": null
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "direct",
+    "question": "According to Melchizedek, what is the world's greatest lie?",
+    "expected_answer": "That at a certain point, we lose control of our lives and they become controlled by fate.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 24,
+    "evidence_quote": "up saying that everyone believes the world’s greatest lie.” “What’s the world’s greatest lie?” the boy asked,",
+    "filter": null
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "direct",
+    "question": "What title and city did the old man claim to rule when introducing himself?",
+    "expected_answer": "King of Salem.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 26,
+    "evidence_quote": "ngs he had never told anyone. “I’m the king of Salem,” the old man had said. “Why would a king be talki",
+    "filter": null
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "conditional",
+    "question": "What payment did Melchizedek demand from Santiago to tell him how to find the hidden treasure?",
+    "expected_answer": "One-tenth of his flock of sheep.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 26,
+    "evidence_quote": "my sheep and get going.” “Give me one-tenth of your sheep,” said the old man, “and I’ll tell you how to find the",
+    "filter": null
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "How does Melchizedek define a Personal Legend?",
+    "expected_answer": "It is what a person has always wanted to accomplish in life.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 26,
+    "evidence_quote": "t know what a person’s “Personal Legend” was. “It’s what you have always wanted to accomplish. Everyone, when they are young, knows what",
+    "filter": null
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "direct",
+    "question": "What force appears negative but prepares one's spirit and will to realize their destiny?",
+    "expected_answer": "A mysterious force that prepares spirit and will.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 27,
+    "evidence_quote": "realize your Personal Legend. It prepares your spirit and your will, because there is one great truth on this planet: whoev",
+    "filter": null
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "direct",
+    "question": "What Mediterranean wind brought the Moors and the scent of the desert across to Spain?",
+    "expected_answer": "The levanter.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 30,
+    "evidence_quote": "at wind: people called it the levanter, because on it the Moors had come from the Levant at the ea",
+    "filter": null
+  },
+  {
+    "id": "q16",
+    "split": "dev",
+    "type": "filter_test",
+    "question": "What are the names of the two divination stones Melchizedek gave to Santiago?",
+    "expected_answer": "Urim and Thummim.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 32,
+    "evidence_quote": "enter of the breastplate. “They are called Urim and Thummim. The black signifies ‘yes,’ and the white ‘no.",
+    "filter": {
+      "part": "Part One"
+    }
+  },
+  {
+    "id": "q17",
+    "split": "dev",
+    "type": "direct",
+    "question": "What meanings do the black and white divination stones carry?",
+    "expected_answer": "The black signifies yes, and the white signifies no.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 32,
+    "evidence_quote": "te. “They are called Urim and Thummim. The black signifies ‘yes,’ and the white ‘no.’ When you are unable to read the omens, they wi",
+    "filter": null
+  },
+  {
+    "id": "q18",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "What is the secret of happiness according to the wise man's story of the oil spoons?",
+    "expected_answer": "To see all the marvels of the world without forgetting the drops of oil on the spoon.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 34,
+    "evidence_quote": "and never to forget the drops of oil on the spoon.’” The shepherd said nothing. He had understood the sto",
+    "filter": null
+  },
+  {
+    "id": "q19",
+    "split": "dev",
+    "type": "direct",
+    "question": "What object in a shop window distracted Santiago when his money was stolen in Tangier?",
+    "expected_answer": "An ornate sword with an embossed silver scabbard.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 37,
+    "evidence_quote": "distracted by the sword",
+    "filter": null
+  },
+  {
+    "id": "q20",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "What universal realization did Santiago have after observing the candy merchant in the marketplace?",
+    "expected_answer": "That there exists a language that does not depend on words.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 42,
+    "evidence_quote": "rfectly well. There must be a language that doesn’t depend on words, the boy thought. I’ve already had that experience with my",
+    "filter": null
+  },
+  {
+    "id": "q21",
+    "split": "dev",
+    "type": "filter_test",
+    "question": "Why did the crystal merchant offer food to Santiago after the boy cleaned his display glasses?",
+    "expected_answer": "Because Muslim law (the Koran) requires feeding a hungry person.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 44,
+    "evidence_quote": "do any cleaning,” he said. “The Koran requires me to feed a hungry person.” “Well then, why did you let me do it?” the boy asked.",
+    "filter": {
+      "part": "Part One"
+    }
+  },
+  {
+    "id": "q22",
+    "split": "dev",
+    "type": "filter_test",
+    "question": "What reason did Santiago give for agreeing to work for the crystal merchant at the end of Part One?",
+    "expected_answer": "He needed money to buy some sheep.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 44,
+    "evidence_quote": "he said. And after another long silence, he added, “I need money to buy some sheep.”",
+    "filter": {
+      "part": "Part One"
+    }
+  },
+  {
+    "id": "q23",
+    "split": "dev",
+    "type": "direct",
+    "question": "What is the fifth obligation of every Muslim according to the crystal merchant?",
+    "expected_answer": "A pilgrimage to the holy city of Mecca.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 48,
+    "evidence_quote": "avel,” the merchant answered. “The fifth obligation of every Muslim is a pilgrimage. We are obliged, at least once in our lives, to visit",
+    "filter": null
+  },
+  {
+    "id": "q24",
+    "split": "dev",
+    "type": "conditional",
+    "question": "Why was the crystal merchant afraid to make his pilgrimage to Mecca?",
+    "expected_answer": "He feared that once his dream was realized, he would have no reason left to live.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 48,
+    "evidence_quote": "d dinner at that same horrible café. I’m afraid that if my dream is realized, I’ll have no reason to go on living. “You dream about your sheep and the Pyramids, b",
+    "filter": null
+  },
+  {
+    "id": "q25",
+    "split": "dev",
+    "type": "direct",
+    "question": "What innovative idea did Santiago propose to increase sales in the crystal shop?",
+    "expected_answer": "Selling tea in crystal glasses to people climbing the hill.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 51,
+    "evidence_quote": "e told the boy that he could begin to sell tea in the crystal glasses. Sometimes, there’s just no way to hold back the ri",
+    "filter": null
+  },
+  {
+    "id": "q26",
+    "split": "dev",
+    "type": "filter_test",
+    "question": "How long did Santiago work for the crystal merchant before departing for Egypt?",
+    "expected_answer": "Almost a full year (eleven months and nine days).",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 52,
+    "evidence_quote": "woke before dawn. It had been eleven months and nine days since he had first set foot on the African continent. He dr",
+    "filter": {
+      "part": "Part Two"
+    }
+  },
+  {
+    "id": "q27",
+    "split": "dev",
+    "type": "direct",
+    "question": "What luggage was the Englishman surrounded by while preparing for the caravan?",
+    "expected_answer": "Trunks of books on alchemy.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 55,
+    "evidence_quote": "trunks of books",
+    "filter": null
+  },
+  {
+    "id": "q28",
+    "split": "dev",
+    "type": "direct",
+    "question": "What was the Englishman's primary goal in traveling to the Al-Fayoum oasis?",
+    "expected_answer": "To find a true alchemist who possessed the secrets of the Master Work.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 57,
+    "evidence_quote": "search of a true alchemist",
+    "filter": null
+  },
+  {
+    "id": "q29",
+    "split": "dev",
+    "type": "direct",
+    "question": "In which direction did the desert caravan travel each morning?",
+    "expected_answer": "Toward the east.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 61,
+    "evidence_quote": "boy. The caravan moved toward the east. It traveled during the morning, halted when the sun was at",
+    "filter": null
+  },
+  {
+    "id": "q30",
+    "split": "dev",
+    "type": "filter_test",
+    "question": "What is the liquid portion of the Master Work called, and what does it do?",
+    "expected_answer": "The Elixir of Life; it cures all illnesses and keeps the alchemist from aging.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 66,
+    "evidence_quote": "masters.” The boy learned that the liquid part of the Master Work was called the Elixir of Life, and that it cured all illnesses; it also kept the al",
+    "filter": {
+      "part": "Part Two"
+    }
+  },
+  {
+    "id": "q31",
+    "split": "dev",
+    "type": "direct",
+    "question": "What is the solid portion of the Master Work called in alchemy?",
+    "expected_answer": "The Philosopher's Stone.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 66,
+    "evidence_quote": "alchemist from growing old. And the solid part was called the Philosopher’s Stone. “It’s not easy to find the Philosopher’s Stone,” sai",
+    "filter": null
+  },
+  {
+    "id": "q32",
+    "split": "dev",
+    "type": "direct",
+    "question": "On what legendary artifact was the most important text of alchemy inscribed?",
+    "expected_answer": "The Emerald Tablet.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 65,
+    "evidence_quote": "The Emerald Tablet, upon which the most important text",
+    "filter": null
+  },
+  {
+    "id": "q33",
+    "split": "dev",
+    "type": "conditional",
+    "question": "Why were fires forbidden in the desert caravan encampments at night?",
+    "expected_answer": "To avoid attracting the attention of warring tribes or bandits.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 70,
+    "evidence_quote": "Fires were forbidden at night",
+    "filter": null
+  },
+  {
+    "id": "q34",
+    "split": "dev",
+    "type": "filter_test",
+    "question": "Why was the Al-Fayoum oasis considered neutral ground during desert warfare?",
+    "expected_answer": "Because it was populated mostly by women and children, making it a safe haven.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 75,
+    "evidence_quote": "oasis was an area of neutrality",
+    "filter": {
+      "part": "Part Two"
+    }
+  },
+  {
+    "id": "q35",
+    "split": "dev",
+    "type": "direct",
+    "question": "What was the name of the desert woman Santiago met at the oasis well?",
+    "expected_answer": "Fatima.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 78,
+    "evidence_quote": "Her name was Fatima",
+    "filter": null
+  },
+  {
+    "id": "q36",
+    "split": "test",
+    "type": "direct",
+    "question": "What omen did Santiago observe when watching two hawks in the desert sky?",
+    "expected_answer": "One hawk attacked the other, giving him a vision of an army attacking the oasis.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 79,
+    "evidence_quote": "ore sense, he thought. Suddenly, one of the hawks made a flashing dive through the sky, attacking the other. As it did so, a sudden, fleeting image came to",
+    "filter": null
+  },
+  {
+    "id": "q37",
+    "split": "test",
+    "type": "direct",
+    "question": "To whom did Santiago report his prophetic vision of the attack on the oasis?",
+    "expected_answer": "To the chieftains and tribal council of the oasis.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 83,
+    "evidence_quote": "ken with earlier. “Who is this stranger who speaks of omens?” asked one of the chieftains, eyeing the boy. “It is I,”",
+    "filter": null
+  },
+  {
+    "id": "q38",
+    "split": "test",
+    "type": "conditional",
+    "question": "What penalty did the chieftains promise Santiago if no enemies appeared at the oasis?",
+    "expected_answer": "He would be executed with one of the unused weapons.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 85,
+    "evidence_quote": "at least one of them will be used on you",
+    "filter": null
+  },
+  {
+    "id": "q39",
+    "split": "test",
+    "type": "direct",
+    "question": "Who confronted Santiago on horseback with a drawn sword and a falcon after the meeting?",
+    "expected_answer": "The Alchemist.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 86,
+    "evidence_quote": "d completely in black, with a falcon perched on his left shoulder. He wore a turban and his entire face, except for his eyes,",
+    "filter": null
+  },
+  {
+    "id": "q40",
+    "split": "test",
+    "type": "conditional",
+    "question": "What challenge did the Alchemist give Santiago during their nocturnal desert ride?",
+    "expected_answer": "To show where there is life in the barren desert.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 91,
+    "evidence_quote": "Show me where there is life in the desert",
+    "filter": null
+  },
+  {
+    "id": "q41",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "Why did the Alchemist instruct Santiago to listen continuously to his heart?",
+    "expected_answer": "Because wherever his heart is, that is where his treasure will be found.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 99,
+    "evidence_quote": "wherever your heart is, that is where you will find your treasure",
+    "filter": null
+  },
+  {
+    "id": "q42",
+    "split": "test",
+    "type": "direct",
+    "question": "What did the Alchemist carry in his bag that tribal guards thought was a joke?",
+    "expected_answer": "The Philosopher's Stone and the Elixir of Life.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 103,
+    "evidence_quote": "“That’s the Philosopher’s Stone and the Elixir of Life. It’s the Master Work of the alchemists. Whoever swallows",
+    "filter": null
+  },
+  {
+    "id": "q43",
+    "split": "test",
+    "type": "filter_test",
+    "question": "What miraculous feat did the Alchemist promise the military chief Santiago would perform?",
+    "expected_answer": "Transform himself into the wind in three days.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 107,
+    "evidence_quote": "needs three days,” answered the alchemist. “He is going to transform himself into the wind, just to demonstrate his power",
+    "filter": {
+      "part": "Part Two"
+    }
+  },
+  {
+    "id": "q44",
+    "split": "test",
+    "type": "direct",
+    "question": "What element of the desert landscape did Santiago speak to first when summoning the wind?",
+    "expected_answer": "The desert sands.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 108,
+    "evidence_quote": "spoke to the desert",
+    "filter": null
+  },
+  {
+    "id": "q45",
+    "split": "test",
+    "type": "direct",
+    "question": "Which celestial body did Santiago converse with after the desert and the wind?",
+    "expected_answer": "The sun.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 111,
+    "evidence_quote": "turned to the sun",
+    "filter": null
+  },
+  {
+    "id": "q46",
+    "split": "test",
+    "type": "direct",
+    "question": "At the Coptic monastery, what base metal did the Alchemist melt to create gold?",
+    "expected_answer": "Lead.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 117,
+    "evidence_quote": "melted the lead in an iron pan",
+    "filter": null
+  },
+  {
+    "id": "q47",
+    "split": "test",
+    "type": "direct",
+    "question": "Into how many pieces did the Alchemist divide the newly created gold disk at the monastery?",
+    "expected_answer": "Four pieces.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 117,
+    "evidence_quote": "divided the gold into four parts",
+    "filter": null
+  },
+  {
+    "id": "q48",
+    "split": "test",
+    "type": "direct",
+    "question": "What creature crawled through the sand near the pyramids as an omen to start digging?",
+    "expected_answer": "A scarab beetle.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 121,
+    "evidence_quote": "scarab beetle scuttled through the sand",
+    "filter": null
+  },
+  {
+    "id": "q49",
+    "split": "test",
+    "type": "conditional",
+    "question": "What dream did the bandit leader reveal that disclosed the real location of the treasure?",
+    "expected_answer": "A recurring dream about a ruined church in Spain with a sycamore tree in the sacristy.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 123,
+    "evidence_quote": "p slept. In my dream, there was a sycamore growing out of the ruins of the sacristy, and I was told that, if I dug at the roots of the syca",
+    "filter": null
+  },
+  {
+    "id": "q50",
+    "split": "test",
+    "type": "filter_test",
+    "question": "Where did Santiago return to dig up his chest of Spanish gold coins in the Epilogue?",
+    "expected_answer": "Under the sycamore tree in the abandoned church in Spain.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 124,
+    "evidence_quote": "Epilogue The boy reached the small, abandoned church just as night was falling. The sycamore was still there in the sacristy, and the star",
+    "filter": {
+      "part": "Epilogue"
+    }
+  }
+]

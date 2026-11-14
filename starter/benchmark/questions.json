@@ -1,0 +1,232 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "filter_test",
+    "question": "Whose mythological story did the alchemist read in the book found in the caravan?",
+    "expected_answer": "The story of Narcissus.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 11,
+    "evidence_quote": "pages, he found a story about Narcissus. The alchemist knew",
+    "filter": {
+      "part": "Prologue"
+    }
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "direct",
+    "question": "What kind of tree was growing in the ruins of the sacristy where Santiago slept with his sheep?",
+    "expected_answer": "An enormous sycamore tree.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 14,
+    "evidence_quote": "ago, and an enormous sycamore had grown on the spot where the sacristy had once stood. He",
+    "filter": null
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "direct",
+    "question": "What profession had Santiago's parents originally wished for him to follow?",
+    "expected_answer": "A Catholic priest.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 17,
+    "evidence_quote": "sixteen. His parents had wanted him to become a priest, and thereby a sour",
+    "filter": null
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "What primary desire motivated Santiago to wander as a shepherd instead of serving in the clergy?",
+    "expected_answer": "His purpose and desire in life was to travel and know the world.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 17,
+    "evidence_quote": "the boy. His purpose in life was to travel, and, after two years of walking the Andalusian terrain, he knew all the ci",
+    "filter": null
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "direct",
+    "question": "In Santiago's recurring dream, who takes him by the hands and transports him to the Egyptian pyramids?",
+    "expected_answer": "A child.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 21,
+    "evidence_quote": "it upset. “And suddenly, the child took me by both hands and transported me to the Egyptian pyramids.” He",
+    "filter": null
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "direct",
+    "question": "What payment did the Gypsy woman demand for interpreting Santiago's dream?",
+    "expected_answer": "One-tenth of the treasure.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 22,
+    "evidence_quote": "e said. “But I want one-tenth of the treasure, if you find it.” The boy laughe",
+    "filter": null
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "conditional",
+    "question": "What payment did Melchizedek demand from Santiago to tell him how to find the hidden treasure?",
+    "expected_answer": "One-tenth of his flock of sheep.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 26,
+    "evidence_quote": "d get going.” “Give me one-tenth of your sheep,” said the old",
+    "filter": null
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "direct",
+    "question": "What Mediterranean wind brought the Moors and the scent of the desert into Andalusia?",
+    "expected_answer": "The levanter.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 30,
+    "evidence_quote": "hat wind: people called it the levanter, because on it the Moors had come from the Levant at",
+    "filter": null
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "What is the secret of happiness according to the wise man's story of the oil spoons?",
+    "expected_answer": "To see all marvels of the world without forgetting the drops of oil on the spoon.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 34,
+    "evidence_quote": "of wise men. ‘The secret of happiness is to see all the marvels of the world, and never to forget the drops of oil on the spoon.’” The shepherd",
+    "filter": null
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "filter_test",
+    "question": "Why did the crystal merchant offer food to Santiago after the boy cleaned his display glasses?",
+    "expected_answer": "Because Muslim law (the Koran) requires feeding a hungry person.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 44,
+    "evidence_quote": ",” he said. “The Koran requires me to feed a hungry person.” “Well then, wh",
+    "filter": {
+      "part": "Part One"
+    }
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "conditional",
+    "question": "Why was the crystal merchant afraid to make his pilgrimage to Mecca?",
+    "expected_answer": "He feared that once his dream was fulfilled, he would have no reason left to live.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 48,
+    "evidence_quote": "same horrible café. I’m afraid that if my dream is realized, I’ll have no reason to go on living. “You dr",
+    "filter": null
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "direct",
+    "question": "What business innovation did Santiago propose to increase sales in the crystal shop?",
+    "expected_answer": "Selling hot tea in crystal glasses to customers climbing the hill.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 51,
+    "evidence_quote": "he could begin to sell tea in the crystal glasses. Sometimes,",
+    "filter": null
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "direct",
+    "question": "What is the liquid portion of the Master Work called, and what are its properties?",
+    "expected_answer": "The Elixir of Life; it cures all illnesses and keeps the alchemist from aging.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 66,
+    "evidence_quote": "earned that the liquid part of the Master Work was called the Elixir of Life, and that it",
+    "filter": null
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "direct",
+    "question": "What was the name of the desert woman Santiago met and fell in love with at the oasis well?",
+    "expected_answer": "Fatima.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 75,
+    "evidence_quote": "d the same. “What’s your name?” he asked. “Fatima,” the girl said, averting her ey",
+    "filter": null
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "filter_test",
+    "question": "Where did Santiago return to dig for his chest of Spanish gold coins in the Epilogue?",
+    "expected_answer": "At the abandoned church in Spain under the roots of the sycamore tree.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 124,
+    "evidence_quote": "ached the small, abandoned church just as night was falling. The sycamore was still there in the sacristy, and the stars coul",
+    "filter": {
+      "part": "Epilogue"
+    }
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "type": "direct",
+    "question": "According to Melchizedek, what is the world's greatest lie?",
+    "expected_answer": "That at a certain point, we lose control of our lives and they become controlled by fate.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 24,
+    "evidence_quote": "ed. “It’s this: that at a certain point in our lives, we lose control of what’s happening to us, and our lives become controlled by fate. That’s the world’s greatest lie.” “That’",
+    "filter": null
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "type": "filter_test",
+    "question": "What are the names of the two divination stones Melchizedek gave to Santiago?",
+    "expected_answer": "Urim and Thummim.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 32,
+    "evidence_quote": "r of the breastplate. “They are called Urim and Thummim. The black signifies ‘yes,’ and the white ‘no.’ When y",
+    "filter": {
+      "part": "Part One"
+    }
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "type": "conditional",
+    "question": "Why were desert oases considered neutral territory during tribal wars?",
+    "expected_answer": "Because the majority of inhabitants were women and children, making them safe places of refuge.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 71,
+    "evidence_quote": "he boy that oases were always considered to be neutral territories, because the majority of the inhabitants were women and children. There were oases",
+    "filter": null
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "type": "conditional",
+    "question": "What severe penalty did the oasis chieftains promise Santiago if no enemies attacked the oasis?",
+    "expected_answer": "Santiago would be executed with one of the unused weapons.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 85,
+    "evidence_quote": "t not function. If at least one of them hasn’t been used by the end of the day tomorrow, one will be used on you.” When the bo",
+    "filter": null
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "type": "filter_test",
+    "question": "What miraculous feat did the Alchemist claim Santiago could perform within three days?",
+    "expected_answer": "Transform himself into the wind.",
+    "gold_source_id": "the-alchemist",
+    "gold_page": 107,
+    "evidence_quote": "three days,” answered the alchemist. “He is going to transform himself into the wind, just to demonstrate h",
+    "filter": {
+      "part": "Part Two"
+    }
+  }
+]

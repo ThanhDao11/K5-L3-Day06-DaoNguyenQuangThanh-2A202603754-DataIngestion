@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed_size,500,50,"document_id,page,source",none,openai/text-embedding-3-small,Baseline fixed-size (500/50) chunking splits semantic units arbitrarily.,6/15,9/15,3/5,4/5,511 chunks
+B,by_paragraph,800,0,"document_id,page,source,part",none,openai/text-embedding-3-small,Structure-aware paragraph chunking (<= 800) preserves narrative context and increases grounding.,3/15,6/15,3/5,5/5,339 chunks
+C,by_paragraph,800,0,"document_id,page,source,part",part,openai/text-embedding-3-small,Metadata filtering on 'part' restricts search space and suppresses false-positive cross-section distractors.,4/15,7/15,3/5,5/5,339 chunks + metadata filter

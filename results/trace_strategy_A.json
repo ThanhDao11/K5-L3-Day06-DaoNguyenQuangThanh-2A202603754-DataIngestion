@@ -1,0 +1,1012 @@
+[
+  {
+    "question_id": "q01",
+    "split": "dev",
+    "type": "filter_test",
+    "question": "Whose mythological story did the alchemist read in the book found in the caravan?",
+    "expected_answer": "The story of Narcissus.",
+    "gold_page": 11,
+    "evidence_quote": "pages, he found a story about Narcissus. The alchemist knew",
+    "filter": {
+      "part": "Prologue"
+    },
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "the-alchemist_p11_f01",
+        "page": 11,
+        "score": 0.6282,
+        "metadata": {
+          "part": "Prologue",
+          "section": "Prologue"
+        },
+        "text": "Prologue\nTranslated by Clifford E. Landers\nThe alchemist picked up a book that someone in the caravan had\nbrought. Leafing through the pages, he found a story about\nNarcissus.\nThe alchemist knew the legend of Narcissus, a youth who knelt\ndaily beside a lake to contemplate his own beauty. He was so\nfascinated by himself that, one morning, he fell into the lake and\ndrowned. At the spot where he fell, a flower was born, which was\ncalled the narcissus.\nBut this was not how the author of the book end",
+        "is_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "the-alchemist_p89_f03",
+        "page": 89,
+        "score": 0.6041,
+        "metadata": {
+          "part": "Part Two",
+          "section": "Part Two"
+        },
+        "text": "o the south. He eventually sighted a single tent,\nand a group of Arabs passing by told the boy that it was a place\ninhabited by genies. But the boy sat down and waited.\nNot until the moon was high did the alchemist ride into view. He\ncarried two dead hawks over his shoulder.\n“I am here,” the boy said.\n“You shouldn’t be here,” the alchemist answered. “Or is it your\nPersonal Legend that brings you here?”\n“With the wars between the tribes, it’s impossible to cross the\ndesert. So I have come here.”",
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "the-alchemist_p89_f04",
+        "page": 89,
+        "score": 0.5814,
+        "metadata": {
+          "part": "Part Two",
+          "section": "Part Two"
+        },
+        "text": "ssible to cross the\ndesert. So I have come here.”\nThe alchemist dismounted from his horse, and signaled that the\nboy should enter the tent with him. It was a tent like many at the\noasis. The boy looked around for the ovens and other apparatus\nused in alchemy, but saw none. There were only some books in a\npile, a small cooking stove, and the carpets, covered with mysterious\ndesigns.\n“Sit down. We’ll have something to drink and eat these hawks,”\nsaid the alchemist.",
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "q02",
+    "split": "dev",
+    "type": "direct",
+    "question": "What kind of tree was growing in the ruins of the sacristy where Santiago slept with his sheep?",
+    "expected_answer": "An enormous sycamore tree.",
+    "gold_page": 14,
+    "evidence_quote": "ago, and an enormous sycamore had grown on the spot where the sacristy had once stood. He",
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "the-alchemist_p14_f01",
+        "page": 14,
+        "score": 0.6048,
+        "metadata": {
+          "part": "Part One",
+          "section": "Part One"
+        },
+        "text": "THE BOY’S NAME WAS SANTIAGO. DUSK was falling as the boy arrived\nwith his herd at an abandoned church. The roof had fallen in long\nago, and an enormous sycamore had grown on the spot where the\nsacristy had once stood.\nHe decided to spend the night there. He saw to it that all the\nsheep entered through the ruined gate, and then laid some planks\nacross it to prevent the flock from wandering away during the night.\nThere were no wolves in the region, but once an animal had strayed\nduring the night,",
+        "is_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "the-alchemist_p124_f01",
+        "page": 124,
+        "score": 0.4486,
+        "metadata": {
+          "part": "Epilogue",
+          "section": "Epilogue"
+        },
+        "text": "Epilogue\nThe boy reached the small, abandoned church just as night was\nfalling. The sycamore was still there in the sacristy, and the stars\ncould still be seen through the half-destroyed roof. He remembered\nthe time he had been there with his sheep; it had been a peaceful\nnight . . . except for the dream.\nNow he was here not with his flock, but with a shovel.\nHe sat looking at the sky for a long time. Then he took from his\nknapsack a bottle of wine, and drank some. He remembered the\nnight in the",
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "the-alchemist_p123_f01",
+        "page": 123,
+        "score": 0.4407,
+        "metadata": {
+          "part": "Part Two",
+          "section": "Part Two"
+        },
+        "text": "must have stolen this gold.”\nThe boy fell to the sand, nearly unconscious. The leader shook\nhim and said, “We’re leaving.”\nBut before they left, he came back to the boy and said, “You’re not\ngoing to die. You’ll live, and you’ll learn that a man shouldn’t be so\nstupid. Two years ago, right here on this spot, I had a recurrent\ndream, too. I dreamed that I should travel to the fields of Spain and\nlook for a ruined church where shepherds and their sheep slept. In\nmy dream, there was a sycamore grow",
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "q03",
+    "split": "dev",
+    "type": "direct",
+    "question": "What profession had Santiago's parents originally wished for him to follow?",
+    "expected_answer": "A Catholic priest.",
+    "gold_page": 17,
+    "evidence_quote": "sixteen. His parents had wanted him to become a priest, and thereby a sour",
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "the-alchemist_p17_f05",
+        "page": 17,
+        "score": 0.4666,
+        "metadata": {
+          "part": "Part One",
+          "section": "Part One"
+        },
+        "text": "so did the boy. His purpose in life\nwas to travel, and, after two years of walking the Andalusian terrain,\nhe knew all the cities of the region. He was planning, on this visit, to\nexplain to the girl how it was that a simple shepherd knew how to\nread. That he had attended a seminary until he was sixteen. His\nparents had wanted him to become a priest, and thereby a source of\npride for a simple farm family. They worked hard just to have food\nand water, like the sheep. He had studied Latin, Spanis",
+        "is_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "the-alchemist_p18_f03",
+        "page": 18,
+        "score": 0.433,
+        "metadata": {
+          "part": "Part One",
+          "section": "Part One"
+        },
+        "text": "to\nlive here forever,” his father continued.\n“Well, I’d like to see their land, and see how they live,” said his\nson.\n“The people who come here have a lot of money to spend, so they\ncan afford to travel,” his father said. “Amongst us, the only ones who\ntravel are the shepherds.”\n“Well, then I’ll be a shepherd!”\nHis father said no more. The next day, he gave his son a pouch\nthat held three ancient Spanish gold coins.\n“I found these one day in the fields. I wanted them to be a part of\nyour inherit",
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "the-alchemist_p18_f01",
+        "page": 18,
+        "score": 0.4139,
+        "metadata": {
+          "part": "Part One",
+          "section": "Part One"
+        },
+        "text": "theology. But ever since he had been a child, he had wanted to know\nthe world, and this was much more important to him than knowing\nGod and learning about man’s sins. One afternoon, on a visit to his\nfamily, he had summoned up the courage to tell his father that he\ndidn’t want to become a priest. That he wanted to travel.\n“People from all over the world have passed through this village,\nson,” said his father. “They come in search of new things, but when\nthey leave they are basically the same peo",
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "q04",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "What primary desire motivated Santiago to wander as a shepherd instead of serving in the clergy?",
+    "expected_answer": "His purpose and desire in life was to travel and know the world.",
+    "gold_page": 17,
+    "evidence_quote": "the boy. His purpose in life was to travel, and, after two years of walking the Andalusian terrain, he knew all the ci",
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "the-alchemist_p17_f05",
+        "page": 17,
+        "score": 0.5591,
+        "metadata": {
+          "part": "Part One",
+          "section": "Part One"
+        },
+        "text": "so did the boy. His purpose in life\nwas to travel, and, after two years of walking the Andalusian terrain,\nhe knew all the cities of the region. He was planning, on this visit, to\nexplain to the girl how it was that a simple shepherd knew how to\nread. That he had attended a seminary until he was sixteen. His\nparents had wanted him to become a priest, and thereby a source of\npride for a simple farm family. They worked hard just to have food\nand water, like the sheep. He had studied Latin, Spanis",
+        "is_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "the-alchemist_p18_f01",
+        "page": 18,
+        "score": 0.5169,
+        "metadata": {
+          "part": "Part One",
+          "section": "Part One"
+        },
+        "text": "theology. But ever since he had been a child, he had wanted to know\nthe world, and this was much more important to him than knowing\nGod and learning about man’s sins. One afternoon, on a visit to his\nfamily, he had summoned up the courage to tell his father that he\ndidn’t want to become a priest. That he wanted to travel.\n“People from all over the world have passed through this village,\nson,” said his father. “They come in search of new things, but when\nthey leave they are basically the same peo",
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "the-alchemist_p18_f03",
+        "page": 18,
+        "score": 0.4997,
+        "metadata": {
+          "part": "Part One",
+          "section": "Part One"
+        },
+        "text": "to\nlive here forever,” his father continued.\n“Well, I’d like to see their land, and see how they live,” said his\nson.\n“The people who come here have a lot of money to spend, so they\ncan afford to travel,” his father said. “Amongst us, the only ones who\ntravel are the shepherds.”\n“Well, then I’ll be a shepherd!”\nHis father said no more. The next day, he gave his son a pouch\nthat held three ancient Spanish gold coins.\n“I found these one day in the fields. I wanted them to be a part of\nyour inherit",
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "q05",
+    "split": "dev",
+    "type": "direct",
+    "question": "In Santiago's recurring dream, who takes him by the hands and transports him to the Egyptian pyramids?",
+    "expected_answer": "A child.",
+    "gold_page": 21,
+    "evidence_quote": "it upset. “And suddenly, the child took me by both hands and transported me to the Egyptian pyramids.” He",
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "the-alchemist_p21_f04",
+        "page": 21,
+        "score": 0.5588,
+        "metadata": {
+          "part": "Part One",
+          "section": "Part One"
+        },
+        "text": "e paused for a moment to see if the woman knew what the\nEgyptian pyramids were. But she said nothing.\n“Then, at the Egyptian pyramids,”—he said the last three words\nslowly, so that the old woman would understand—“the child said to\nme, ‘If you come here, you will find a hidden treasure.’ And, just as\nshe was about to show me the exact location, I woke up. Both\ntimes.”\nThe woman was silent for some time. Then she again took his\nhands and studied them carefully.",
+        "is_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "the-alchemist_p22_f02",
+        "page": 22,
+        "score": 0.5552,
+        "metadata": {
+          "part": "Part One",
+          "section": "Part One"
+        },
+        "text": "asked him to\nswear again while looking at the image of the Sacred Heart of Jesus.\n“It’s a dream in the language of the world,” she said. “I can\ninterpret it, but the interpretation is very difficult. That’s why I feel that\nI deserve a part of what you find.\n“And this is my interpretation: you must go to the Pyramids in\nEgypt. I have never heard of them, but, if it was a child who showed\nthem to you, they exist. There you will find a treasure that will make\nyou a rich man.”\nThe boy was surprised,",
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "the-alchemist_p123_f02",
+        "page": 123,
+        "score": 0.5482,
+        "metadata": {
+          "part": "Part Two",
+          "section": "Part Two"
+        },
+        "text": "heep slept. In\nmy dream, there was a sycamore growing out of the ruins of the\nsacristy, and I was told that, if I dug at the roots of the sycamore, I\nwould find a hidden treasure. But I’m not so stupid as to cross an\nentire desert just because of a recurrent dream.”\nAnd they disappeared.\nThe boy stood up shakily, and looked once more at the Pyramids.\nThey seemed to laugh at him, and he laughed back, his heart\nbursting with joy.\nBecause now he knew where his treasure was.",
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "q06",
+    "split": "dev",
+    "type": "direct",
+    "question": "What payment did the Gypsy woman demand for interpreting Santiago's dream?",
+    "expected_answer": "One-tenth of the treasure.",
+    "gold_page": 22,
+    "evidence_quote": "e said. “But I want one-tenth of the treasure, if you find it.” The boy laughe",
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "the-alchemist_p21_f01",
+        "page": 21,
+        "score": 0.5671,
+        "metadata": {
+          "part": "Part One",
+          "section": "Part One"
+        },
+        "text": "better to pay her fee and leave without learning a thing, that he was\ngiving too much importance to his recurrent dream.\n“You came so that you could learn about your dreams,” said the\nold woman. “And dreams are the language of God. When he speaks\nin our language, I can interpret what he has said. But if he speaks in\nthe language of the soul, it is only you who can understand. But,\nwhichever it is, I’m going to charge you for the consultation.”\nAnother trick, the boy thought. But he decided to ta",
+        "is_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "the-alchemist_p22_f01",
+        "page": 22,
+        "score": 0.5405,
+        "metadata": {
+          "part": "Part One",
+          "section": "Part One"
+        },
+        "text": "“I’m not going to charge you anything now,” she said. “But I want\none-tenth of the treasure, if you find it.”\nThe boy laughed—out of happiness. He was going to be able to\nsave the little money he had because of a dream about hidden\ntreasure!\n“Well, interpret the dream,” he said.\n“First, swear to me. Swear that you will give me one-tenth of your\ntreasure in exchange for what I am going to tell you.”\nThe shepherd swore that he would. The old woman asked him to\nswear again while looking at the imag",
+        "is_hit": true
+      },
+      {
+        "rank": 3,
+        "chunk_id": "the-alchemist_p22_f02",
+        "page": 22,
+        "score": 0.5061,
+        "metadata": {
+          "part": "Part One",
+          "section": "Part One"
+        },
+        "text": "asked him to\nswear again while looking at the image of the Sacred Heart of Jesus.\n“It’s a dream in the language of the world,” she said. “I can\ninterpret it, but the interpretation is very difficult. That’s why I feel that\nI deserve a part of what you find.\n“And this is my interpretation: you must go to the Pyramids in\nEgypt. I have never heard of them, but, if it was a child who showed\nthem to you, they exist. There you will find a treasure that will make\nyou a rich man.”\nThe boy was surprised,",
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "q07",
+    "split": "dev",
+    "type": "conditional",
+    "question": "What payment did Melchizedek demand from Santiago to tell him how to find the hidden treasure?",
+    "expected_answer": "One-tenth of his flock of sheep.",
+    "gold_page": 26,
+    "evidence_quote": "d get going.” “Give me one-tenth of your sheep,” said the old",
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "the-alchemist_p34_f04",
+        "page": 34,
+        "score": 0.5467,
+        "metadata": {
+          "part": "Part One",
+          "section": "Part One"
+        },
+        "text": "y so much change. All they\nwanted was food and water.\nMelchizedek watched a small ship that was plowing its way out of\nthe port. He would never again see the boy, just as he had never\nseen Abraham again after having charged him his one-tenth fee.\nThat was his work.",
+        "is_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "the-alchemist_p22_f01",
+        "page": 22,
+        "score": 0.4935,
+        "metadata": {
+          "part": "Part One",
+          "section": "Part One"
+        },
+        "text": "“I’m not going to charge you anything now,” she said. “But I want\none-tenth of the treasure, if you find it.”\nThe boy laughed—out of happiness. He was going to be able to\nsave the little money he had because of a dream about hidden\ntreasure!\n“Well, interpret the dream,” he said.\n“First, swear to me. Swear that you will give me one-tenth of your\ntreasure in exchange for what I am going to tell you.”\nThe shepherd swore that he would. The old woman asked him to\nswear again while looking at the imag",
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "the-alchemist_p22_f02",
+        "page": 22,
+        "score": 0.4716,
+        "metadata": {
+          "part": "Part One",
+          "section": "Part One"
+        },
+        "text": "asked him to\nswear again while looking at the image of the Sacred Heart of Jesus.\n“It’s a dream in the language of the world,” she said. “I can\ninterpret it, but the interpretation is very difficult. That’s why I feel that\nI deserve a part of what you find.\n“And this is my interpretation: you must go to the Pyramids in\nEgypt. I have never heard of them, but, if it was a child who showed\nthem to you, they exist. There you will find a treasure that will make\nyou a rich man.”\nThe boy was surprised,",
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "q08",
+    "split": "dev",
+    "type": "direct",
+    "question": "What Mediterranean wind brought the Moors and the scent of the desert into Andalusia?",
+    "expected_answer": "The levanter.",
+    "gold_page": 30,
+    "evidence_quote": "hat wind: people called it the levanter, because on it the Moors had come from the Levant at",
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "the-alchemist_p111_f05",
+        "page": 111,
+        "score": 0.6232,
+        "metadata": {
+          "part": "Part Two",
+          "section": "Part Two"
+        },
+        "text": "ved, men thought that the wind came\nfrom Andalusia. But, actually, the wind came from no place at all, nor\ndid it go to any place; that’s why it was stronger than the desert.",
+        "is_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "the-alchemist_p111_f04",
+        "page": 111,
+        "score": 0.6161,
+        "metadata": {
+          "part": "Part Two",
+          "section": "Part Two"
+        },
+        "text": "peak the language of the desert and the\nwind?”\n“My heart,” the boy answered.\nThe wind has many names. In that part of the world, it was called\nthe sirocco, because it brought moisture from the oceans to the east.\nIn the distant land the boy came from, they called it the levanter,\nbecause they believed that it brought with it the sands of the desert,\nand the screams of the Moorish wars. Perhaps, in the places beyond\nthe pastures where his sheep lived, men thought that the wind came\nfrom Andalusia",
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "the-alchemist_p30_f04",
+        "page": 30,
+        "score": 0.4645,
+        "metadata": {
+          "part": "Part One",
+          "section": "Part One"
+        },
+        "text": "began to pick up. He knew that wind: people called it the\nlevanter, because on it the Moors had come from the Levant at the\neastern end of the Mediterranean.\nThe levanter increased in intensity. Here I am, between my flock\nand my treasure, the boy thought. He had to choose between\nsomething he had become accustomed to and something he wanted\nto have. There was also the merchant’s daughter, but she wasn’t as",
+        "is_hit": true
+      }
+    ]
+  },
+  {
+    "question_id": "q09",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "What is the secret of happiness according to the wise man's story of the oil spoons?",
+    "expected_answer": "To see all marvels of the world without forgetting the drops of oil on the spoon.",
+    "gold_page": 34,
+    "evidence_quote": "of wise men. ‘The secret of happiness is to see all the marvels of the world, and never to forget the drops of oil on the spoon.’” The shepherd",
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "the-alchemist_p34_f02",
+        "page": 34,
+        "score": 0.6447,
+        "metadata": {
+          "part": "Part One",
+          "section": "Part One"
+        },
+        "text": "ng down at the spoon he held, the boy saw that the oil was\ngone.\n“‘Well, there is only one piece of advice I can give you,’ said the\nwisest of wise men. ‘The secret of happiness is to see all the\nmarvels of the world, and never to forget the drops of oil on the\nspoon.’”\nThe shepherd said nothing. He had understood the story the old\nking had told him. A shepherd may like to travel, but he should never\nforget about his sheep.\nThe old man looked at the boy and, with his hands held together,\nmade se",
+        "is_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "the-alchemist_p33_f03",
+        "page": 33,
+        "score": 0.5608,
+        "metadata": {
+          "part": "Part One",
+          "section": "Part One"
+        },
+        "text": "o wait for two hours\nbefore it was his turn to be given the man’s attention.\n“The wise man listened attentively to the boy’s explanation of why\nhe had come, but told him that he didn’t have time just then to\nexplain the secret of happiness. He suggested that the boy look\naround the palace and return in two hours.\n“‘Meanwhile, I want to ask you to do something,’ said the wise\nman, handing the boy a teaspoon that held two drops of oil. ‘As you\nwander around, carry this spoon with you without allow",
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "the-alchemist_p34_f01",
+        "page": 34,
+        "score": 0.541,
+        "metadata": {
+          "part": "Part One",
+          "section": "Part One"
+        },
+        "text": "“Relieved, the boy picked up the spoon and returned to his\nexploration of the palace, this time observing all of the works of art\non the ceilings and the walls. He saw the gardens, the mountains all\naround him, the beauty of the flowers, and the taste with which\neverything had been selected. Upon returning to the wise man, he\nrelated in detail everything he had seen.\n“‘But where are the drops of oil I entrusted to you?’ asked the wise\nman.\n“Looking down at the spoon he held, the boy saw that the",
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "q10",
+    "split": "dev",
+    "type": "filter_test",
+    "question": "Why did the crystal merchant offer food to Santiago after the boy cleaned his display glasses?",
+    "expected_answer": "Because Muslim law (the Koran) requires feeding a hungry person.",
+    "gold_page": 44,
+    "evidence_quote": ",” he said. “The Koran requires me to feed a hungry person.” “Well then, wh",
+    "filter": {
+      "part": "Part One"
+    },
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "the-alchemist_p44_f05",
+        "page": 44,
+        "score": 0.5988,
+        "metadata": {
+          "part": "Part One",
+          "section": "Part One"
+        },
+        "text": "e crystal merchant.\nThe boy said nothing. He got up, adjusted his clothing, and picked\nup his pouch.\n“I’ll work for you,” he said.\nAnd after another long silence, he added, “I need money to buy\nsome sheep.”",
+        "is_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "the-alchemist_p43_f03",
+        "page": 43,
+        "score": 0.5821,
+        "metadata": {
+          "part": "Part One",
+          "section": "Part One"
+        },
+        "text": "decision. In his pouch, he had his jacket—he\ncertainly wasn’t going to need it in the desert. Taking the jacket out,\nhe began to clean the glasses. In half an hour, he had cleaned all the\nglasses in the window, and, as he was doing so, two customers had\nentered the shop and bought some crystal.\nWhen he had completed the cleaning, he asked the man for\nsomething to eat. “Let’s go and have some lunch,” said the crystal\nmerchant.\nHe put a sign on the door, and they went to a small café nearby.\nAs t",
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "the-alchemist_p44_f01",
+        "page": 44,
+        "score": 0.5536,
+        "metadata": {
+          "part": "Part One",
+          "section": "Part One"
+        },
+        "text": "“You didn’t have to do any cleaning,” he said. “The Koran requires\nme to feed a hungry person.”\n“Well then, why did you let me do it?” the boy asked.\n“Because the crystal was dirty. And both you and I needed to\ncleanse our minds of negative thoughts.”\nWhen they had eaten, the merchant turned to the boy and said,\n“I’d like you to work in my shop. Two customers came in today while\nyou were working, and that’s a good omen.”\nPeople talk a lot about omens, thought the shepherd. But they\nreally don’t",
+        "is_hit": true
+      }
+    ]
+  },
+  {
+    "question_id": "q11",
+    "split": "dev",
+    "type": "conditional",
+    "question": "Why was the crystal merchant afraid to make his pilgrimage to Mecca?",
+    "expected_answer": "He feared that once his dream was fulfilled, he would have no reason left to live.",
+    "gold_page": 48,
+    "evidence_quote": "same horrible café. I’m afraid that if my dream is realized, I’ll have no reason to go on living. “You dr",
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "the-alchemist_p48_f02",
+        "page": 48,
+        "score": 0.6525,
+        "metadata": {
+          "part": "Part Two",
+          "section": "Part Two"
+        },
+        "text": ". I thought that someday I’d be rich, and could go to Mecca.\nI began to make some money, but I could never bring myself to leave\nsomeone in charge of the shop; the crystals are delicate things. At\nthe same time, people were passing my shop all the time, heading\nfor Mecca. Some of them were rich pilgrims, traveling in caravans\nwith servants and camels, but most of the people making the\npilgrimage were poorer than I.\n“All who went there were happy at having done so. They placed\nthe symbols of the",
+        "is_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "the-alchemist_p52_f04",
+        "page": 52,
+        "score": 0.6117,
+        "metadata": {
+          "part": "Part Two",
+          "section": "Part Two"
+        },
+        "text": "you have the money you need to go to Mecca.”\nThe old man said nothing.\n“Will you give me your blessing?” asked the boy. “You have\nhelped me.” The man continued to prepare his tea, saying nothing.\nThen he turned to the boy.\n“I am proud of you,” he said. “You brought a new feeling into my\ncrystal shop. But you know that I’m not going to go to Mecca. Just as\nyou know that you’re not going to buy your sheep.”\n“Who told you that?” asked the boy, startled.\n“Maktub,” said the old crystal merchant.",
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "the-alchemist_p54_f05",
+        "page": 54,
+        "score": 0.5697,
+        "metadata": {
+          "part": "Part Two",
+          "section": "Part Two"
+        },
+        "text": "ause that wasn’t really his\ndream.\nWho knows . . . maybe it’s better to be like the crystal merchant:\nnever go to Mecca, and just go through life wanting to do so, he\nthought, again trying to convince himself. But as he held Urim and\nThummim in his hand, they had transmitted to him the strength and\nwill of the old king. By coincidence—or maybe it was an omen, the\nboy thought—he came to the bar he had entered on his first day",
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "q12",
+    "split": "dev",
+    "type": "direct",
+    "question": "What business innovation did Santiago propose to increase sales in the crystal shop?",
+    "expected_answer": "Selling hot tea in crystal glasses to customers climbing the hill.",
+    "gold_page": 51,
+    "evidence_quote": "he could begin to sell tea in the crystal glasses. Sometimes,",
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "the-alchemist_p51_f04",
+        "page": 51,
+        "score": 0.4555,
+        "metadata": {
+          "part": "Part Two",
+          "section": "Part Two"
+        },
+        "text": "ther man\nremarked that tea was always more delicious when it was served in\ncrystal, because the aroma was retained. The third said that it was a\ntradition in the Orient to use crystal glasses for tea because it had\nmagical powers.\nBefore long, the news spread, and a great many people began to\nclimb the hill to see the shop that was doing something new in a\ntrade that was so old. Other shops were opened that served tea in\ncrystal, but they weren’t at the top of a hill, and they had little\nbusines",
+        "is_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "the-alchemist_p43_f03",
+        "page": 43,
+        "score": 0.4486,
+        "metadata": {
+          "part": "Part One",
+          "section": "Part One"
+        },
+        "text": "decision. In his pouch, he had his jacket—he\ncertainly wasn’t going to need it in the desert. Taking the jacket out,\nhe began to clean the glasses. In half an hour, he had cleaned all the\nglasses in the window, and, as he was doing so, two customers had\nentered the shop and bought some crystal.\nWhen he had completed the cleaning, he asked the man for\nsomething to eat. “Let’s go and have some lunch,” said the crystal\nmerchant.\nHe put a sign on the door, and they went to a small café nearby.\nAs t",
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "the-alchemist_p42_f05",
+        "page": 42,
+        "score": 0.4357,
+        "metadata": {
+          "part": "Part One",
+          "section": "Part One"
+        },
+        "text": "hill just to browse\nthrough a few small shops.\nBut the crystal merchant had no choice. He had lived thirty years\nof his life buying and selling crystal pieces, and now it was too late to",
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "q13",
+    "split": "dev",
+    "type": "direct",
+    "question": "What is the liquid portion of the Master Work called, and what are its properties?",
+    "expected_answer": "The Elixir of Life; it cures all illnesses and keeps the alchemist from aging.",
+    "gold_page": 66,
+    "evidence_quote": "earned that the liquid part of the Master Work was called the Elixir of Life, and that it",
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "the-alchemist_p66_f02",
+        "page": 66,
+        "score": 0.4788,
+        "metadata": {
+          "part": "Part Two",
+          "section": "Part Two"
+        },
+        "text": "he language with which all\nthings communicated. They called that discovery the Master Work—\nit was part liquid and part solid.\n“Can’t you just observe men and omens in order to understand\nthe language?” the boy asked.\n“You have a mania for simplifying everything,” answered the\nEnglishman, irritated. “Alchemy is a serious discipline. Every step\nhas to be followed exactly as it was followed by the masters.”\nThe boy learned that the liquid part of the Master Work was called\nthe Elixir of Life, and",
+        "is_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "the-alchemist_p66_f03",
+        "page": 66,
+        "score": 0.4611,
+        "metadata": {
+          "part": "Part Two",
+          "section": "Part Two"
+        },
+        "text": "he Master Work was called\nthe Elixir of Life, and that it cured all illnesses; it also kept the\nalchemist from growing old. And the solid part was called the\nPhilosopher’s Stone.\n“It’s not easy to find the Philosopher’s Stone,” said the\nEnglishman. “The alchemists spent years in their laboratories,\nobserving the fire that purified the metals. They spent so much time\nclose to the fire that gradually they gave up the vanities of the world.\nThey discovered that the purification of the metals had le",
+        "is_hit": true
+      },
+      {
+        "rank": 3,
+        "chunk_id": "the-alchemist_p117_f02",
+        "page": 117,
+        "score": 0.4073,
+        "metadata": {
+          "part": "Part Two",
+          "section": "Part Two"
+        },
+        "text": "liquid, the alchemist took from his pouch the strange yellow\negg. He scraped from it a sliver as thin as a hair, wrapped it in wax,\nand added it to the pan in which the lead had melted.\nThe mixture took on a reddish color, almost the color of blood. The\nalchemist removed the pan from the fire, and set it aside to cool. As\nhe did so, he talked with the monk about the tribal wars.\n“I think they’re going to last for a long time,” he said to the monk.\nThe monk was irritated. The caravans had been st",
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "q14",
+    "split": "dev",
+    "type": "direct",
+    "question": "What was the name of the desert woman Santiago met and fell in love with at the oasis well?",
+    "expected_answer": "Fatima.",
+    "gold_page": 75,
+    "evidence_quote": "d the same. “What’s your name?” he asked. “Fatima,” the girl said, averting her ey",
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "the-alchemist_p94_f02",
+        "page": 94,
+        "score": 0.5616,
+        "metadata": {
+          "part": "Part Two",
+          "section": "Part Two"
+        },
+        "text": "rusted in the desert. And he looked out over the desert that\nhad brought him to the woman he loved.\nThey mounted their horses, and this time it was the boy who\nfollowed the alchemist back to the oasis. The wind brought the\nsounds of the oasis to them, and the boy tried to hear Fatima’s\nvoice.\nBut that night, as he had watched the cobra within the circle, the\nstrange horseman with the falcon on his shoulder had spoken of love\nand treasure, of the women of the desert and of his Personal\nLegend.\n“I",
+        "is_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "the-alchemist_p93_f01",
+        "page": 93,
+        "score": 0.5347,
+        "metadata": {
+          "part": "Part Two",
+          "section": "Part Two"
+        },
+        "text": "“Fatima is a woman of the desert,” said the alchemist. “She knows\nthat men have to go away in order to return. And she already has her\ntreasure: it’s you. Now she expects that you will find what it is you’re\nlooking for.”\n“Well, what if I decide to stay?”\n“Let me tell you what will happen. You’ll be the counselor of the\noasis. You have enough gold to buy many sheep and many camels.\nYou’ll marry Fatima, and you’ll both be happy for a year. You’ll learn\nto love the desert, and you’ll get to know e",
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "the-alchemist_p94_f03",
+        "page": 94,
+        "score": 0.5296,
+        "metadata": {
+          "part": "Part Two",
+          "section": "Part Two"
+        },
+        "text": "women of the desert and of his Personal\nLegend.\n“I’m going with you,” the boy said. And he immediately felt peace\nin his heart.\n“We’ll leave tomorrow before sunrise,” was the alchemist’s only\nresponse.\nThe boy spent a sleepless night. Two hours before dawn, he awoke\none of the boys who slept in his tent, and asked him to show him\nwhere Fatima lived. They went to her tent, and the boy gave his\nfriend enough gold to buy a sheep.\nThen he asked his friend to go into the tent where Fatima was\nsleepin",
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "q15",
+    "split": "dev",
+    "type": "filter_test",
+    "question": "Where did Santiago return to dig for his chest of Spanish gold coins in the Epilogue?",
+    "expected_answer": "At the abandoned church in Spain under the roots of the sycamore tree.",
+    "gold_page": 124,
+    "evidence_quote": "ached the small, abandoned church just as night was falling. The sycamore was still there in the sacristy, and the stars coul",
+    "filter": {
+      "part": "Epilogue"
+    },
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "the-alchemist_p124_f04",
+        "page": 124,
+        "score": 0.4952,
+        "metadata": {
+          "part": "Epilogue",
+          "section": "Epilogue"
+        },
+        "text": "wind say. “If I had told you, you\nwouldn’t have seen the Pyramids. They’re beautiful, aren’t they?”\nThe boy smiled, and continued digging. Half an hour later, his\nshovel hit something solid. An hour later, he had before him a chest\nof Spanish gold coins. There were also precious stones, gold masks\nadorned with red and white feathers, and stone statues embedded\nwith jewels. The spoils of a conquest that the country had long ago",
+        "is_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "the-alchemist_p125_f01",
+        "page": 125,
+        "score": 0.4769,
+        "metadata": {
+          "part": "Epilogue",
+          "section": "Epilogue"
+        },
+        "text": "forgotten, and that some conquistador had failed to tell his children\nabout.\nThe boy took out Urim and Thummim from his bag. He had used\nthe two stones only once, one morning when he was at a\nmarketplace. His life and his path had always provided him with\nenough omens.\nHe placed Urim and Thummim in the chest. They were also a part\nof his new treasure, because they were a reminder of the old king,\nwhom he would never see again.\nIt’s true; life really is generous to those who pursue their Personal",
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "the-alchemist_p118_f02",
+        "page": 118,
+        "score": 0.4705,
+        "metadata": {
+          "part": "Part Two",
+          "section": "Part Two"
+        },
+        "text": "ept quiet, because he had heard what the\nalchemist said to the monk.\n“And this is for me,” said the alchemist, keeping one of the parts.\n“Because I have to return to the desert, where there are tribal wars.”\nHe took the fourth part and handed it to the monk.\n“This is for the boy. If he ever needs it.”\n“But I’m going in search of my treasure,” the boy said. “I’m very\nclose to it now.”\n“And I’m certain you’ll find it,” the alchemist said.\n“Then why this?”\n“Because you have already lost your saving",
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "q16",
+    "split": "test",
+    "type": "direct",
+    "question": "According to Melchizedek, what is the world's greatest lie?",
+    "expected_answer": "That at a certain point, we lose control of our lives and they become controlled by fate.",
+    "gold_page": 24,
+    "evidence_quote": "ed. “It’s this: that at a certain point in our lives, we lose control of what’s happening to us, and our lives become controlled by fate. That’s the world’s greatest lie.” “That’",
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "the-alchemist_p25_f04",
+        "page": 25,
+        "score": 0.4019,
+        "metadata": {
+          "part": "Part One",
+          "section": "Part One"
+        },
+        "text": "Sometimes it’s better\nto be with the sheep, who don’t say anything. And better still to be\nalone with one’s books. They tell their incredible stories at the time\nwhen you want to hear them. But when you’re talking to people, they\nsay some things that are so strange that you don’t know how to\ncontinue the conversation.\n“My name is Melchizedek,” said the old man. “How many sheep\ndo you have?”\n“Enough,” said the boy. He could see that the old man wanted to\nknow more about his life.\n“Well, then, we",
+        "is_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "the-alchemist_p24_f04",
+        "page": 24,
+        "score": 0.4007,
+        "metadata": {
+          "part": "Part One",
+          "section": "Part One"
+        },
+        "text": "y\nsurprised.\n“It’s this: that at a certain point in our lives, we lose control of\nwhat’s happening to us, and our lives become controlled by fate.\nThat’s the world’s greatest lie.”\n“That’s never happened to me,” the boy said. “They wanted me to\nbe a priest, but I decided to become a shepherd.”\n“Much better,” said the old man. “Because you really like to travel.”",
+        "is_hit": true
+      },
+      {
+        "rank": 3,
+        "chunk_id": "the-alchemist_p35_f01",
+        "page": 35,
+        "score": 0.3985,
+        "metadata": {
+          "part": "Part One",
+          "section": "Part One"
+        },
+        "text": "The gods should not have desires, because they don’t have\nPersonal Legends. But the king of Salem hoped desperately that the\nboy would be successful.\nIt’s too bad that he’s quickly going to forget my name, he thought.\nI should have repeated it for him. Then when he spoke about me he\nwould say that I am Melchizedek, the king of Salem.\nHe looked to the skies, feeling a bit abashed, and said, “I know it’s\nthe vanity of vanities, as you said, my Lord. But an old king\nsometimes has to take some pride",
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "q17",
+    "split": "test",
+    "type": "filter_test",
+    "question": "What are the names of the two divination stones Melchizedek gave to Santiago?",
+    "expected_answer": "Urim and Thummim.",
+    "gold_page": 32,
+    "evidence_quote": "r of the breastplate. “They are called Urim and Thummim. The black signifies ‘yes,’ and the white ‘no.’ When y",
+    "filter": {
+      "part": "Part One"
+    },
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "the-alchemist_p32_f03",
+        "page": 32,
+        "score": 0.5167,
+        "metadata": {
+          "part": "Part One",
+          "section": "Part One"
+        },
+        "text": "ce he had noticed on\nthe previous day.\nHe really was a king! He must be disguised to avoid encounters\nwith thieves.\n“Take these,” said the old man, holding out a white stone and a\nblack stone that had been embedded at the center of the\nbreastplate. “They are called Urim and Thummim. The black signifies\n‘yes,’ and the white ‘no.’ When you are unable to read the omens,\nthey will help you to do so. Always ask an objective question.\n“But, if you can, try to make your own decisions. The treasure is a",
+        "is_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "the-alchemist_p40_f02",
+        "page": 40,
+        "score": 0.4951,
+        "metadata": {
+          "part": "Part One",
+          "section": "Part One"
+        },
+        "text": "’re called Urim and Thummim, and they can help you to read\nthe omens.” The boy put the stones back in the pouch and decided\nto do an experiment. The old man had said to ask very clear\nquestions, and to do that, the boy had to know what he wanted. So,\nhe asked if the old man’s blessing was still with him.\nHe took out one of the stones. It was “yes.”\n“Am I going to find my treasure?” he asked.\nHe stuck his hand into the pouch, and felt around for one of the\nstones. As he did so, both of them pushe",
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "the-alchemist_p58_f03",
+        "page": 58,
+        "score": 0.4825,
+        "metadata": {
+          "part": "Part Two",
+          "section": "Part Two"
+        },
+        "text": "s would know that\nthose are Urim and Thummim. I didn’t know that they had them in\nthis part of the world.”\n“They were given to me as a present by a king,” the boy said.\nThe stranger didn’t answer; instead, he put his hand in his pocket,\nand took out two stones that were the same as the boy’s.\n“Did you say a king?” he asked.\n“I guess you don’t believe that a king would talk to someone like\nme, a shepherd,” he said, wanting to end the conversation.\n“Not at all. It was shepherds who were the first",
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "q18",
+    "split": "test",
+    "type": "conditional",
+    "question": "Why were desert oases considered neutral territory during tribal wars?",
+    "expected_answer": "Because the majority of inhabitants were women and children, making them safe places of refuge.",
+    "gold_page": 71,
+    "evidence_quote": "he boy that oases were always considered to be neutral territories, because the majority of the inhabitants were women and children. There were oases",
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "the-alchemist_p71_f03",
+        "page": 71,
+        "score": 0.6036,
+        "metadata": {
+          "part": "Part Two",
+          "section": "Part Two"
+        },
+        "text": "orld of people. They were relieved\nand happy.\nThey had been taking careful precautions in the desert, but the\ncamel driver explained to the boy that oases were always considered\nto be neutral territories, because the majority of the inhabitants were\nwomen and children. There were oases throughout the desert, but\nthe tribesmen fought in the desert, leaving the oases as places of\nrefuge.\nWith some difficulty, the leader of the caravan brought all his\npeople together and gave them his instructions.",
+        "is_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "the-alchemist_p71_f04",
+        "page": 71,
+        "score": 0.5437,
+        "metadata": {
+          "part": "Part Two",
+          "section": "Part Two"
+        },
+        "text": "is\npeople together and gave them his instructions. The group was to\nremain there at the oasis until the conflict between the tribes was\nover. Since they were visitors, they would have to share living space\nwith those who lived there, and would be given the best\naccommodations. That was the law of hospitality. Then he asked that\neveryone, including his own sentinels, hand over their arms to the\nmen appointed by the tribal chieftains.\n“Those are the rules of war,” the leader explained. “The oases",
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "the-alchemist_p84_f01",
+        "page": 84,
+        "score": 0.4861,
+        "metadata": {
+          "part": "Part Two",
+          "section": "Part Two"
+        },
+        "text": "“Why would the desert reveal such things to a stranger, when it\nknows that we have been here for generations?” said another of the\nchieftains.\n“Because my eyes are not yet accustomed to the desert,” the boy\nsaid. “I can see things that eyes habituated to the desert might not\nsee.”\nAnd also because I know about the Soul of the World, he thought\nto himself.\n“The oasis is neutral ground. No one attacks an oasis,” said a\nthird chieftain.\n“I can only tell you what I saw. If you don’t want to believe",
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "q19",
+    "split": "test",
+    "type": "conditional",
+    "question": "What severe penalty did the oasis chieftains promise Santiago if no enemies attacked the oasis?",
+    "expected_answer": "Santiago would be executed with one of the unused weapons.",
+    "gold_page": 85,
+    "evidence_quote": "t not function. If at least one of them hasn’t been used by the end of the day tomorrow, one will be used on you.” When the bo",
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "the-alchemist_p71_f04",
+        "page": 71,
+        "score": 0.5118,
+        "metadata": {
+          "part": "Part Two",
+          "section": "Part Two"
+        },
+        "text": "is\npeople together and gave them his instructions. The group was to\nremain there at the oasis until the conflict between the tribes was\nover. Since they were visitors, they would have to share living space\nwith those who lived there, and would be given the best\naccommodations. That was the law of hospitality. Then he asked that\neveryone, including his own sentinels, hand over their arms to the\nmen appointed by the tribal chieftains.\n“Those are the rules of war,” the leader explained. “The oases",
+        "is_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "the-alchemist_p89_f01",
+        "page": 89,
+        "score": 0.4706,
+        "metadata": {
+          "part": "Part Two",
+          "section": "Part Two"
+        },
+        "text": "The only tribesman spared was the commander of the battalion.\nThat afternoon, he was brought before the tribal chieftains, who\nasked him why he had violated the Tradition. The commander said\nthat his men had been starving and thirsty, exhausted from many\ndays of battle, and had decided to take the oasis so as to be able to\nreturn to the war.\nThe tribal chieftain said that he felt sorry for the tribesmen, but\nthat the Tradition was sacred. He condemned the commander to\ndeath without honor. Rather",
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "the-alchemist_p93_f03",
+        "page": 93,
+        "score": 0.4616,
+        "metadata": {
+          "part": "Part Two",
+          "section": "Part Two"
+        },
+        "text": "for the welfare of the oasis\nand its inhabitants. The tribal chieftains will appreciate what you do.\nAnd your camels will bring you wealth and power.\n“During the third year, the omens will continue to speak of your\ntreasure and your Personal Legend. You’ll walk around, night after\nnight, at the oasis, and Fatima will be unhappy because she’ll feel it\nwas she who interrupted your quest. But you will love her, and she’ll\nreturn your love. You’ll remember that she never asked you to stay,\nbecause a",
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "q20",
+    "split": "test",
+    "type": "filter_test",
+    "question": "What miraculous feat did the Alchemist claim Santiago could perform within three days?",
+    "expected_answer": "Transform himself into the wind.",
+    "gold_page": 107,
+    "evidence_quote": "three days,” answered the alchemist. “He is going to transform himself into the wind, just to demonstrate h",
+    "filter": {
+      "part": "Part Two"
+    },
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "the-alchemist_p107_f04",
+        "page": 107,
+        "score": 0.5204,
+        "metadata": {
+          "part": "Part Two",
+          "section": "Part Two"
+        },
+        "text": "em a fatal blow. Yet each felt\nhis heart beat a bit faster. They were men of the desert, and they\nwere fearful of sorcerers.\n“I want to see him do it,” said the chief.\n“He needs three days,” answered the alchemist. “He is going to\ntransform himself into the wind, just to demonstrate his powers. If he\ncan’t do so, we humbly offer you our lives, for the honor of your\ntribe.”\n“You can’t offer me something that is already mine,” the chief said,\narrogantly. But he granted the travelers three days.\nTh",
+        "is_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "the-alchemist_p66_f03",
+        "page": 66,
+        "score": 0.4855,
+        "metadata": {
+          "part": "Part Two",
+          "section": "Part Two"
+        },
+        "text": "he Master Work was called\nthe Elixir of Life, and that it cured all illnesses; it also kept the\nalchemist from growing old. And the solid part was called the\nPhilosopher’s Stone.\n“It’s not easy to find the Philosopher’s Stone,” said the\nEnglishman. “The alchemists spent years in their laboratories,\nobserving the fire that purified the metals. They spent so much time\nclose to the fire that gradually they gave up the vanities of the world.\nThey discovered that the purification of the metals had le",
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "the-alchemist_p103_f01",
+        "page": 103,
+        "score": 0.4789,
+        "metadata": {
+          "part": "Part Two",
+          "section": "Part Two"
+        },
+        "text": "“That’s the Philosopher’s Stone and the Elixir of Life. It’s the\nMaster Work of the alchemists. Whoever swallows that elixir will\nnever be sick again, and a fragment from that stone turns any metal\ninto gold.”\nThe Arabs laughed at him, and the alchemist laughed along. They\nthought his answer was amusing, and they allowed the boy and the\nalchemist to proceed with all of their belongings.\n“Are you crazy?” the boy asked the alchemist, when they had\nmoved on. “What did you do that for?”\n“To show you",
+        "is_hit": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,595 @@
+{
+  "source_id": "the-alchemist",
+  "title": "The Alchemist",
+  "author": "Paulo Coelho",
+  "translator": "Clifford E. Landers",
+  "source_path_or_url": "starter/data/15-05-2021-084550The-Alchemist-Paulo-Coelho.pdf",
+  "license_or_permission": "Fair Use / Educational & Academic Research Evaluation in Day 06 Data Ingestion Lab (Non-commercial).",
+  "accessed_at": "2026-11-14T09:40:00+07:00",
+  "format": "PDF",
+  "total_physical_pages": 136,
+  "valid_content_pages_count": 112,
+  "total_character_count": 210075,
+  "counting_rule": "Excludes front matter (cover, blank pages 1-2, table of contents page 3, acclaim pages 4-7, foreword pages 8-10, divider pages 12, 13, 45) and back matter (Warrior of the Light preview, ads, author bio pages 126-136). Only actual narrative pages are included: Prologue (page 11), Part One (pages 14-44), Part Two (pages 46-123), and Epilogue (pages 124-125).",
+  "metadata_fields": {
+    "mandatory": [
+      "document_id",
+      "source",
+      "page"
+    ],
+    "filterable_fields": [
+      {
+        "field_name": "part",
+        "description": "Section/Part of the book used for metadata filtering",
+        "values": [
+          "Prologue",
+          "Part One",
+          "Part Two",
+          "Epilogue"
+        ]
+      }
+    ]
+  },
+  "pages": [
+    {
+      "page": 11,
+      "section": "Prologue",
+      "character_count": 1412
+    },
+    {
+      "page": 14,
+      "section": "Part One",
+      "character_count": 1601
+    },
+    {
+      "page": 15,
+      "section": "Part One",
+      "character_count": 1346
+    },
+    {
+      "page": 16,
+      "section": "Part One",
+      "character_count": 1934
+    },
+    {
+      "page": 17,
+      "section": "Part One",
+      "character_count": 2306
+    },
+    {
+      "page": 18,
+      "section": "Part One",
+      "character_count": 1555
+    },
+    {
+      "page": 19,
+      "section": "Part One",
+      "character_count": 1725
+    },
+    {
+      "page": 20,
+      "section": "Part One",
+      "character_count": 2024
+    },
+    {
+      "page": 21,
+      "section": "Part One",
+      "character_count": 1813
+    },
+    {
+      "page": 22,
+      "section": "Part One",
+      "character_count": 2069
+    },
+    {
+      "page": 23,
+      "section": "Part One",
+      "character_count": 2176
+    },
+    {
+      "page": 24,
+      "section": "Part One",
+      "character_count": 1714
+    },
+    {
+      "page": 25,
+      "section": "Part One",
+      "character_count": 1923
+    },
+    {
+      "page": 26,
+      "section": "Part One",
+      "character_count": 1986
+    },
+    {
+      "page": 27,
+      "section": "Part One",
+      "character_count": 2027
+    },
+    {
+      "page": 28,
+      "section": "Part One",
+      "character_count": 2217
+    },
+    {
+      "page": 29,
+      "section": "Part One",
+      "character_count": 2002
+    },
+    {
+      "page": 30,
+      "section": "Part One",
+      "character_count": 1761
+    },
+    {
+      "page": 31,
+      "section": "Part One",
+      "character_count": 2150
+    },
+    {
+      "page": 32,
+      "section": "Part One",
+      "character_count": 1615
+    },
+    {
+      "page": 33,
+      "section": "Part One",
+      "character_count": 2114
+    },
+    {
+      "page": 34,
+      "section": "Part One",
+      "character_count": 1615
+    },
+    {
+      "page": 35,
+      "section": "Part One",
+      "character_count": 2001
+    },
+    {
+      "page": 36,
+      "section": "Part One",
+      "character_count": 1988
+    },
+    {
+      "page": 37,
+      "section": "Part One",
+      "character_count": 2048
+    },
+    {
+      "page": 38,
+      "section": "Part One",
+      "character_count": 1921
+    },
+    {
+      "page": 39,
+      "section": "Part One",
+      "character_count": 1688
+    },
+    {
+      "page": 40,
+      "section": "Part One",
+      "character_count": 2084
+    },
+    {
+      "page": 41,
+      "section": "Part One",
+      "character_count": 2119
+    },
+    {
+      "page": 42,
+      "section": "Part One",
+      "character_count": 1986
+    },
+    {
+      "page": 43,
+      "section": "Part One",
+      "character_count": 1474
+    },
+    {
+      "page": 44,
+      "section": "Part One",
+      "character_count": 2006
+    },
+    {
+      "page": 46,
+      "section": "Part Two",
+      "character_count": 1622
+    },
+    {
+      "page": 47,
+      "section": "Part Two",
+      "character_count": 2164
+    },
+    {
+      "page": 48,
+      "section": "Part Two",
+      "character_count": 2092
+    },
+    {
+      "page": 49,
+      "section": "Part Two",
+      "character_count": 1905
+    },
+    {
+      "page": 50,
+      "section": "Part Two",
+      "character_count": 1568
+    },
+    {
+      "page": 51,
+      "section": "Part Two",
+      "character_count": 1852
+    },
+    {
+      "page": 52,
+      "section": "Part Two",
+      "character_count": 1845
+    },
+    {
+      "page": 53,
+      "section": "Part Two",
+      "character_count": 1621
+    },
+    {
+      "page": 54,
+      "section": "Part Two",
+      "character_count": 2228
+    },
+    {
+      "page": 55,
+      "section": "Part Two",
+      "character_count": 1950
+    },
+    {
+      "page": 56,
+      "section": "Part Two",
+      "character_count": 1709
+    },
+    {
+      "page": 57,
+      "section": "Part Two",
+      "character_count": 1833
+    },
+    {
+      "page": 58,
+      "section": "Part Two",
+      "character_count": 1995
+    },
+    {
+      "page": 59,
+      "section": "Part Two",
+      "character_count": 1795
+    },
+    {
+      "page": 60,
+      "section": "Part Two",
+      "character_count": 1705
+    },
+    {
+      "page": 61,
+      "section": "Part Two",
+      "character_count": 2119
+    },
+    {
+      "page": 62,
+      "section": "Part Two",
+      "character_count": 1960
+    },
+    {
+      "page": 63,
+      "section": "Part Two",
+      "character_count": 2138
+    },
+    {
+      "page": 64,
+      "section": "Part Two",
+      "character_count": 2158
+    },
+    {
+      "page": 65,
+      "section": "Part Two",
+      "character_count": 1849
+    },
+    {
+      "page": 66,
+      "section": "Part Two",
+      "character_count": 2191
+    },
+    {
+      "page": 67,
+      "section": "Part Two",
+      "character_count": 1750
+    },
+    {
+      "page": 68,
+      "section": "Part Two",
+      "character_count": 1860
+    },
+    {
+      "page": 69,
+      "section": "Part Two",
+      "character_count": 1458
+    },
+    {
+      "page": 70,
+      "section": "Part Two",
+      "character_count": 1955
+    },
+    {
+      "page": 71,
+      "section": "Part Two",
+      "character_count": 2020
+    },
+    {
+      "page": 72,
+      "section": "Part Two",
+      "character_count": 1927
+    },
+    {
+      "page": 73,
+      "section": "Part Two",
+      "character_count": 1737
+    },
+    {
+      "page": 74,
+      "section": "Part Two",
+      "character_count": 1540
+    },
+    {
+      "page": 75,
+      "section": "Part Two",
+      "character_count": 2024
+    },
+    {
+      "page": 76,
+      "section": "Part Two",
+      "character_count": 1660
+    },
+    {
+      "page": 77,
+      "section": "Part Two",
+      "character_count": 2088
+    },
+    {
+      "page": 78,
+      "section": "Part Two",
+      "character_count": 2185
+    },
+    {
+      "page": 79,
+      "section": "Part Two",
+      "character_count": 1799
+    },
+    {
+      "page": 80,
+      "section": "Part Two",
+      "character_count": 2107
+    },
+    {
+      "page": 81,
+      "section": "Part Two",
+      "character_count": 2149
+    },
+    {
+      "page": 82,
+      "section": "Part Two",
+      "character_count": 1787
+    },
+    {
+      "page": 83,
+      "section": "Part Two",
+      "character_count": 1500
+    },
+    {
+      "page": 84,
+      "section": "Part Two",
+      "character_count": 2041
+    },
+    {
+      "page": 85,
+      "section": "Part Two",
+      "character_count": 2204
+    },
+    {
+      "page": 86,
+      "section": "Part Two",
+      "character_count": 1329
+    },
+    {
+      "page": 87,
+      "section": "Part Two",
+      "character_count": 1979
+    },
+    {
+      "page": 88,
+      "section": "Part Two",
+      "character_count": 1865
+    },
+    {
+      "page": 89,
+      "section": "Part Two",
+      "character_count": 1817
+    },
+    {
+      "page": 90,
+      "section": "Part Two",
+      "character_count": 1952
+    },
+    {
+      "page": 91,
+      "section": "Part Two",
+      "character_count": 2105
+    },
+    {
+      "page": 92,
+      "section": "Part Two",
+      "character_count": 1751
+    },
+    {
+      "page": 93,
+      "section": "Part Two",
+      "character_count": 2208
+    },
+    {
+      "page": 94,
+      "section": "Part Two",
+      "character_count": 1753
+    },
+    {
+      "page": 95,
+      "section": "Part Two",
+      "character_count": 2028
+    },
+    {
+      "page": 96,
+      "section": "Part Two",
+      "character_count": 1488
+    },
+    {
+      "page": 97,
+      "section": "Part Two",
+      "character_count": 2164
+    },
+    {
+      "page": 98,
+      "section": "Part Two",
+      "character_count": 1924
+    },
+    {
+      "page": 99,
+      "section": "Part Two",
+      "character_count": 1585
+    },
+    {
+      "page": 100,
+      "section": "Part Two",
+      "character_count": 2311
+    },
+    {
+      "page": 101,
+      "section": "Part Two",
+      "character_count": 2184
+    },
+    {
+      "page": 102,
+      "section": "Part Two",
+      "character_count": 1853
+    },
+    {
+      "page": 103,
+      "section": "Part Two",
+      "character_count": 1810
+    },
+    {
+      "page": 104,
+      "section": "Part Two",
+      "character_count": 2023
+    },
+    {
+      "page": 105,
+      "section": "Part Two",
+      "character_count": 1948
+    },
+    {
+      "page": 106,
+      "section": "Part Two",
+      "character_count": 1337
+    },
+    {
+      "page": 107,
+      "section": "Part Two",
+      "character_count": 1924
+    },
+    {
+      "page": 108,
+      "section": "Part Two",
+      "character_count": 1902
+    },
+    {
+      "page": 109,
+      "section": "Part Two",
+      "character_count": 1634
+    },
+    {
+      "page": 110,
+      "section": "Part Two",
+      "character_count": 1532
+    },
+    {
+      "page": 111,
+      "section": "Part Two",
+      "character_count": 1974
+    },
+    {
+      "page": 112,
+      "section": "Part Two",
+      "character_count": 2191
+    },
+    {
+      "page": 113,
+      "section": "Part Two",
+      "character_count": 2093
+    },
+    {
+      "page": 114,
+      "section": "Part Two",
+      "character_count": 2218
+    },
+    {
+      "page": 115,
+      "section": "Part Two",
+      "character_count": 2237
+    },
+    {
+      "page": 116,
+      "section": "Part Two",
+      "character_count": 1245
+    },
+    {
+      "page": 117,
+      "section": "Part Two",
+      "character_count": 1505
+    },
+    {
+      "page": 118,
+      "section": "Part Two",
+      "character_count": 1860
+    },
+    {
+      "page": 119,
+      "section": "Part Two",
+      "character_count": 2083
+    },
+    {
+      "page": 120,
+      "section": "Part Two",
+      "character_count": 1915
+    },
+    {
+      "page": 121,
+      "section": "Part Two",
+      "character_count": 1922
+    },
+    {
+      "page": 122,
+      "section": "Part Two",
+      "character_count": 2069
+    },
+    {
+      "page": 123,
+      "section": "Part Two",
+      "character_count": 925
+    },
+    {
+      "page": 124,
+      "section": "Epilogue",
+      "character_count": 1780
+    },
+    {
+      "page": 125,
+      "section": "Epilogue",
+      "character_count": 1162
+    }
+  ]
+}
